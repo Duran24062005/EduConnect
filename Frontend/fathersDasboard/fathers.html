@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Panel de Padres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="imgLogo"><img src="/mis_practicas/EduConect/Frontend/img/EduConectLogo.png" alt="logo de EduConect"
+                        style="width: 70px; height: 70px; border-radius: 50%;"></div>
+                <div class="nombreLogo">EduConect</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#grades">Calificaciones</a></li>
+                <li><a href="#attendance">Asistencia</a></li>
+                <li><a href="#calendar">Calendario</a></li>
+                <li><a href="#messages">Mensajes</a></li>
+            </ul>
+            <div class="user-info">
+                <img src="/mis_practicas/EduConect/Frontend/img/Madre.jpeg" alt="Foto de perfil" class="profile-pic">
+                <span>María García</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard" class="dashboard">
+            <h1>Bienvenida, María</h1>
+            <div class="dashboard-grid">
+                <div class="card student-overview">
+                    <h2>Resumen del Estudiante</h2>
+                    <div class="student-info">
+                        <img src="/mis_practicas/EduConect/Frontend/img/estudiante.jpeg" alt="Foto del estudiante" class="student-pic">
+                        <div>
+                            <h3>Ana García</h3>
+                            <p>Grado: 9°</p>
+                            <p>Promedio General: <span id="averageGrade">88.5%</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card recent-grades">
+                    <h2>Calificaciones Recientes</h2>
+                    <ul id="gradesList">
+                        <!-- Grades will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card attendance-summary">
+                    <h2>Resumen de Asistencia</h2>
+                    <div id="attendanceChart"></div>
+                </div>
+                <div class="card upcoming-events">
+                    <h2>Próximos Eventos</h2>
+                    <ul id="eventsList">
+                        <!-- Events will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card teacher-messages">
+                    <h2>Mensajes de Profesores</h2>
+                    <ul id="messagesList">
+                        <!-- Messages will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card quick-actions">
+                    <h2>Acciones Rápidas</h2>
+                    <button id="scheduleBtn" onclick="" class="action-btn">Agendar Reunión</button>
+                    <button id="absenceBtn" class="action-btn">Reportar Ausencia</button>
+                    <button id="paymentBtn" class="action-btn">Realizar Pago</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 EduConnect. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/mis_practicas/EduConect/Frontend/fathersDasboard/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>

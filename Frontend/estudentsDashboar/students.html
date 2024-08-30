@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Panel de Estudiante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="imgLogo"><img src="/mis_practicas/EduConect/Frontend/img/EduConectLogo.png" alt="logo de EduConect"
+                        style="width: 70px; height: 70px; border-radius: 50%;"></div>
+                <div class="nombreLogo">EduConect</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#assignments">Tareas</a></li>
+                <li><a href="#grades">Calificaciones</a></li>
+                <li><a href="#schedule">Horario</a></li>
+                <li><a href="#messages">Mensajes</a></li>
+            </ul>
+            <div class="user-info">
+                <img src="/placeholder.svg?height=32&width=32" alt="Foto de perfil" class="profile-pic">
+                <span>Juan Pérez</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard" class="dashboard">
+            <h1>Bienvenido, Juan</h1>
+            <div class="dashboard-grid">
+                <div class="card upcoming-assignments">
+                    <h2>Próximas Tareas</h2>
+                    <ul id="assignmentsList">
+                        <!-- Assignments will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card recent-grades">
+                    <h2>Calificaciones Recientes</h2>
+                    <ul id="gradesList">
+                        <!-- Grades will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card today-schedule">
+                    <h2>Horario de Hoy</h2>
+                    <ul id="scheduleList">
+                        <!-- Schedule will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card quick-links">
+                    <h2>Enlaces Rápidos</h2>
+                    <ul>
+                        <li><a href="#" id="resourcesLink">Recursos de Aprendizaje</a></li>
+                        <li><a href="#" id="libraryLink">Biblioteca Digital</a></li>
+                        <li><a href="#" id="supportLink">Soporte Técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 EduConnect. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Panel de Profesores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="imgLogo"><img src="/mis_practicas/EduConect/Frontend/img/EduConectLogo.png" alt="logo de EduConect"
+                        style="width: 70px; height: 70px; border-radius: 50%;"></div>
+                <div class="nombreLogo">EduConnect</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#classes">Clases</a></li>
+                <li><a href="#grades">Calificaciones</a></li>
+                <li><a href="#attendance">Asistencia</a></li>
+                <li><a href="#messages">Mensajes</a></li>
+            </ul>
+            <div class="user-info">
+                <span>Prof. Carlos Rodríguez</span>
+                <img src="/mis_practicas/EduConect/Frontend/img/docente.jpeg" alt="Foto de perfil" class="profile-pic">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dashboard" class="dashboard">
+            <h1>Bienvenido, Prof. Carlos</h1>
+            <div class="dashboard-grid">
+                <div class="card class-overview">
+                    <h2>Resumen de Clases</h2>
+                    <ul id="classList">
+                        <!-- Classes will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="card upcoming-assignments">
+                    <h2>Tareas Próximas</h2>
+                    <ul id="assignmentsList">
+                        <!-- Assignments will be populated by JavaScript -->
+                    </ul>
+                    <button id="addAssignmentBtn" class="action-btn">Agregar Tarea</button>
+                </div>
+                <div class="card grade-distribution">
+                    <h2>Distribución de Calificaciones</h2>
+                    <div id="gradeChart"></div>
+                </div>
+                <div class="card attendance-summary">
+                    <h2>Resumen de Asistencia</h2>
+                    <div id="attendanceChart"></div>
+                </div>
+                <div class="card recent-messages">
+                    <h2>Mensajes Recientes</h2>
+                    <ul id="messagesList">
+                        <!-- Messages will be populated by JavaScript -->
+                    </ul>
+                    <button id="composeMessageBtn" class="action-btn">Redactar Mensaje</button>
+                </div>
+                <div class="card quick-actions">
+                    <h2>Acciones Rápidas</h2>
+                    <button id="scheduleBtn" class="action-btn">Agendar Reunión</button>
+                    <button id="reportBtn" class="action-btn">Generar Informe</button>
+                    <button id="resourceBtn" class="action-btn">Subir Recurso</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><span class="Alexi">Alexi Dg-Soft</span> &copy; 2023 EduConnect. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- /placeholder.svg?height=32&width=32 -->
