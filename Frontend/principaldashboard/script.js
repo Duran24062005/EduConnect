@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav-links li');
 
     burger.addEventListener('click', () => {
-        lert("This buttom burger is not defined");
+        alert("This buttom burger is not defined");
         nav.classList.toggle('nav-active');
 
         navLinks.forEach((link, index) => {
