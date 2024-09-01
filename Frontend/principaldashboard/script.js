@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sample chart
     const ctx = document.getElementById('rendimientoChart').getContext('2d');
     new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: {
             labels: ['Matemáticas', 'programacio', 'Socialies', 'Naturales', 'Historia', 'Arte'],
             datasets: [{
