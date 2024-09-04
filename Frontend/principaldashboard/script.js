@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctx = document.getElementById('rendimientoChart').getContext('2d');
     new Chart(ctx, {
         type: 'bar',
+        //  bar, radar, pie, doughnut,
         data: {
             labels: ['Matemáticas', 'programacio', 'Socialies', 'Naturales', 'Historia', 'Arte'],
             datasets: [{

@@ -1,0 +1,37 @@
+# Entorno virtual
+venv/
+
+# Archivos de configuración de entorno
+.env
+.env.local
+.env.*.local
+*.env
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos local
+db.sqlite3
+
+# Archivos de migraciones
+**/migrations/*
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Archivos de configuración del editor
+.idea/
+.vscode/
+*.swp
+
+# Archivos de logs
+*.log
+
+# Archivos de caché
+**/staticfiles/
+**/media/
