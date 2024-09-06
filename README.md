@@ -23,7 +23,7 @@ El objetivo principal de EduConnect es no solo ofrecer una herramienta útil par
 - **Backend**:
   - Python (FastApi)
   - Frameworks: FastApi
-  - Base de Datos: PostgreSQL, MySQL
+  - Base de Datos: PostgreSQL
 - **Seguridad**:
   - Autenticación y Autorización: JWT, OAuth
   - Encriptación de Contraseñas: bcrypt
@@ -61,7 +61,6 @@ EduConnect no solo es una herramienta práctica, sino también una plataforma ed
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Licencia que elijas]. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está licenciado bajo licencia de código de propietario. Consulta el archivo `LICENSE` para más detalles.
 
 ---
-
