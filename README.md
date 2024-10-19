@@ -1,7 +1,3 @@
-Aquí tienes un ejemplo de contenido para un archivo `README.md` que puedes usar para tu proyecto EduConnect:
-
----
-
 # EduConnect
 
 EduConnect es una plataforma educativa integral diseñada para facilitar la gestión académica y mejorar la comunicación entre estudiantes, maestros y padres. Este proyecto es una iniciativa abierta, donada a [Nombre de la Escuela], con el objetivo de proporcionar a los estudiantes una oportunidad de aprendizaje práctico en desarrollo de software.
