@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/Frontend/img/Drop.jpeg");
+    background-image: url("/img/Drop.jpeg");
     /* background-repeat: no-repeat;
     background-size: contain; */
     display: flex;
