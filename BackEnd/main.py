@@ -14,8 +14,8 @@ app.docs_url = "/docs"
 app.openapi_url = "/openapi.json"
 
 
-@app.get('/', tags=['Home'])
-async def read_root():
+@app.get('/', tags=['Login'])
+async def login():
     return {"message": "Welcome to EduConnect Backend API"}
 
 app.include_router(teachers_router)

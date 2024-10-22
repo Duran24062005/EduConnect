@@ -8,8 +8,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image: url("/img/Drop.jpeg");
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover; 
     color: #333;
 }
 
